@@ -25,7 +25,7 @@ public class conectorSQL {
         try(Connection connection = DriverManager.getConnection(url, user,pwd)) {
             System.out.println("Conectado!!");
         } catch (SQLException e) {
-            System.out.println("Falla en conexion...");
+            System.out.println("Falla en conexion!!!");
             System.out.println(e.getMessage());
         }
     }
